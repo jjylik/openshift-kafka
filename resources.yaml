@@ -73,6 +73,7 @@ items:
     metadata:
       name: ${NAME}
     spec:
+      clusterIP: None
       ports:
       - name: kafka
         port: 9092
